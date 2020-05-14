@@ -92,5 +92,23 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := false
 TARGET_COPY_OUT_VENDOR := vendor
 
-# OrangeFox
-OF_SCREEN_H := 2160
+# SHRP flags
+SHRP_PATH := device/xiaomi/ysl
+SHRP_MAINTAINER := ItsVixano
+SHRP_DEVICE_CODE := ysl
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /sdcard1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
+SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
+SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
+SHRP_FLASH_MAX_BRIGHTNESS := 200
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_AB := false
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_Only
+SHRP_STATUSBAR_RIGHT_PADDING := 40
+SHRP_STATUSBAR_LEFT_PADDING := 40
+SHRP_DARK := true
